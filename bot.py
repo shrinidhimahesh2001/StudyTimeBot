@@ -4,7 +4,7 @@ import datetime
 import requests
 from dotenv import load_dotenv
 from discord.ext import commands
-load_dotenv('.env')
+load_dotenv('---.env')
 
 client= commands.Bot(command_prefix = '!')
 
